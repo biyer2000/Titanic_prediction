@@ -4,9 +4,9 @@ The output is binary with 1 indicating the passenger survived and 0 indicating t
 Input data (training and testing) is represented as a csv file which contains various attritues such as sex, age, Fare, Social Class, Place of Departure as shown below:
 
 
-  Pclass	Sex	Age	Fare	Embarked	relatives	IsAlone	
-0	 3	     1	  1	 11	    0	        2	        0	        
-1	 3	     0	 28	 7	    1	        0	        1	
+  Pclass,3	Sex,1	Age,1 	Fare,11	Embarked,0	relatives,2	  IsAlone,0
+  Pclass,3  Sex,0 Age,28  Fare,7. Embarked,1 relatives,0   IsAlone,1
+
 
 Used the pandas dataframe to load the above data and median filled null values for rows that have incomplete data. 
 
